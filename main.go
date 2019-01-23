@@ -7,7 +7,7 @@ import (
 )
 
 // token de acesso
-const token string = "NTE0ODM5MDU2Mzc1MzQ5MzIx.DyJoqA.j0uvCQzt8zAXyVamvDgsVRlup5Y"
+const token string = "XXXXXXXXXXXXX"
 
 // Variavel global para poder ser lida por outros pacotes
 var BotID string
