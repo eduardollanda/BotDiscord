@@ -43,7 +43,7 @@ func main() {
 
 	// Canal vazio para garantir que o bot estará sempre rodando e esperando algum evento
 	<-make(chan struct{})
-
+	fmt.Println("alo")
 }
 func messageHandler(session *discordgo.Session, message *discordgo.MessageCreate) {
 
@@ -55,3 +55,4 @@ func messageHandler(session *discordgo.Session, message *discordgo.MessageCreate
 		session.ChannelMessageSend(message.ChannelID, "pong")
 	}
 }
+
