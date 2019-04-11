@@ -1,2 +1,2 @@
 # BotDiscord
-Um bot para o Discord feito em Golang.
+A bot  to discord made in GOlang.
